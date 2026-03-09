@@ -48,14 +48,6 @@ cp .env.example .env
 Set up the database with Prisma :
 
 npx prisma migrate dev --name init
-# or if you just want to generate the Prisma client without migrating
-npx prisma generate
-
-Start the development server :
-
-npm run dev
-  or
-yarn dev
 
 📁 Project Structure
 
