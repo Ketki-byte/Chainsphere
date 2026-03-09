@@ -51,7 +51,8 @@ npx prisma migrate dev --name init
 
 📁 Project Structure
 
-chainsphere-backend/
+chainsphere
+
 ├── .github/workflows/   # GitHub Actions CI/CD workflows
 
 ├── controllers/         # Request handlers for different API routes
