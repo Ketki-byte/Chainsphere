@@ -53,16 +53,27 @@ npx prisma migrate dev --name init
 
 chainsphere-backend/
 ├── .github/workflows/   # GitHub Actions CI/CD workflows
+
 ├── controllers/         # Request handlers for different API routes
+
 ├── middlewares/         # Custom middleware functions (auth, validation, etc.)
+
 ├── prisma/              # Prisma schema and migration files
+
 ├── public/              # Static files (like temporary uploads)
+
 ├── routes/              # API route definitions
+
 ├── utils/               # Helper functions and utilities
+
 ├── view/                # (Possibly for server-side rendered views or emails)
+
 ├── Web3/                # Web3-specific logic and configurations
+
 ├── .env.example         # Example environment variables
+
 ├── index.js             # Main application entry point
+
 └── package.json         # Project metadata and dependencies
 
 
